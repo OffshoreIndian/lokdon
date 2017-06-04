@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#75bd59</color>
+    <color name="colorPrimaryDark">#75bd59</color>
+    <color name="colorAccent">#75bd59</color>
+    <color name="white">#FFFFFF</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#f5f5f5</color>
+    <color name="navigationBarColor">#2b3d53</color>
+    <color name="red">#FF0000</color>
+    <color name="deepBlue">#145670</color>
+    <color name="green">#0EA3A8</color>
+    <color name="lightBlue">#0EB4F1</color>
+    <color name="dividerLine">#B3B3B3</color>
+    <color name="grey_divider">#d5d7d9</color>
+
+    <!--<color name="dark_red">#b11419</color>
+    <color name="light_red">#e92a31</color>
+    <color name="nav_bar">#4a0608</color>-->
+    <color name="tab_background">#1c2b3d</color>
+    <color name="tab_selected_indicator">#415369</color>
+    <color name="category_list_view_divider_color">#415369</color>
+
+    <color name="nav_bar">#2b3d53</color>
+    <color name="dark_red">#2b3d53</color>
+    <color name="light_red">#00a5a1</color>
+
+    <color name="transparent">#00000000</color>
+    <!-- card colors -->
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow_1">#d4d4d4</color>
+    <color name="card_shadow_2">#dddddd</color>
+    <color name="card_detailing">#eee</color>
+
+    <color name="orange">#FA0</color>
+    <color name="light_grey">#d3d3d3</color>
+    <color name="light_grey2">#555555</color>
+
+    <color name="colorFAB1">#0092dd</color>
+    <color name="colorFAB2">#E040FB</color>
+
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="button_color">#F2F2FF</color>
+
+    <color name="button_text_color">#582777</color>
+    <color name="drawer_background_color">#17152b</color>
+    <color name="detail_text_color">#b1b1b1</color>
+    <color name="dialog_button_color">#3f3f43</color>
+    <color name="rating_color">#f9bc39</color>b0b0b0
+    <color name="home_text_color">#b0b0b0</color>
+    <color name="blue_button_selected">#0faac3</color>
+    <color name="black">#000</color>
+    <color name="black_button_default">#272b33</color>
+
+</resources>

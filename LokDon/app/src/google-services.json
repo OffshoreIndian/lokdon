@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "307772581451",
+    "project_id": "firebase-lokdon"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307772581451:android:50ea4013b3c66b0d",
+        "android_client_info": {
+          "package_name": "com.offshoreindian.lokdon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307772581451-rn7mne6eiaibnaq16ftq8scn0u9vdb26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.offshoreindian.lokdon",
+            "certificate_hash": "7939DE785EA9EB2BE569EB379F6B2D096453CAA7"
+          }
+        },
+        {
+          "client_id": "307772581451-g8g4dvbl9a74k7a7r90915h3hm83l7cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-zc1_YVHjPxrcRnT4PeBs0bSq_tcxThs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

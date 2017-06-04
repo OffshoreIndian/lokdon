@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/windowBackground"
+    android:orientation="vertical">
+
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_margin="10dp"
+         android:background="@drawable/home_screen_border"
+         android:elevation="15dp"
+         android:orientation="vertical"
+         android:weightSum="2">
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_margin="2dp"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="5dp"
+                   android:background="@mipmap/circle"
+                   android:elevation="5dp"
+                   android:gravity="center"
+                   android:id="@+id/messenger_layout"
+                   android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/message"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/messenger"
+                        android:visibility="gone"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="DropBox"
+                        android:textColor="@color/home_text_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_margin="5dp"
+                   android:background="@mipmap/circle"
+                   android:elevation="5dp"
+                   android:gravity="center"
+                   android:id="@+id/scloud_layout"
+                   android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/sCloud"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/scloud"
+                        android:visibility="gone"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/aws"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="One Drive"
+                        android:textColor="@color/home_text_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+               </LinearLayout>
+
+          </LinearLayout>
+
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_margin="2dp"
+              android:layout_weight="1"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_margin="5dp"
+                   android:background="@mipmap/circle"
+                   android:gravity="center"
+                   android:id="@+id/aws_layout"
+                   android:orientation="vertical">
+
+
+                    <ImageView
+                        android:id="@+id/aws"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:visibility="gone"
+                        android:background="@mipmap/aws"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/aws"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="Media Fire"
+                        android:textColor="@color/home_text_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+               </LinearLayout>
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_margin="5dp"
+                   android:background="@mipmap/circle"
+                   android:elevation="5dp"
+                   android:gravity="center"
+                   android:id="@+id/azure_layout"
+                   android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/azure"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/azure"
+                        android:visibility="gone"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:text="Sugar Sync"
+                        android:textColor="@color/home_text_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+               </LinearLayout>
+
+          </LinearLayout>
+
+
+     </LinearLayout>
+
+
+</RelativeLayout>

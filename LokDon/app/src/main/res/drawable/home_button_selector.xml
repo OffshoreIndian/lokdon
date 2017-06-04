@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/home_screen_border"/> <!-- pressed -->
+    <item android:state_focused="true" android:drawable="@drawable/home_screen_border"/> <!-- focused -->
+    <!--<item android:drawable="@color/green_button_default"/> &lt;!&ndash; default &ndash;&gt;-->
+    <item android:drawable="@drawable/home_screen_selected_border"/>
+
+</selector>

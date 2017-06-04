@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activity.LokdonActivity"
+    tools:showIn="@layout/app_bar_header">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/black_boder_line"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:background="#000000"></LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_layout">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/home_logo"
+            android:elevation="5dp"
+            android:id="@+id/home_screen_logo"
+            android:visibility="invisible"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_gravity="bottom|right">
+
+        </LinearLayout>
+    </FrameLayout>
+
+</RelativeLayout>

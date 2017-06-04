@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+     android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+             android:layout_margin="20dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Got it now?"
+                android:padding="13dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Just give it a go, thanks a lot for visiting"
+                android:padding="13dp"
+                android:gravity="left"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/start_lokdon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginRight="13dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="START USING LOKDON"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Questions :"
+                android:padding="13dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:gravity="left"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Why use Lokdon?"
+                android:padding="13dp"
+                android:gravity="left"
+                android:autoLink="web"
+                android:id="@+id/why_lokdon"
+                android:linksClickable="true"
+                android:textColor="@color/blue_button_selected"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="The knowledge base"
+                android:padding="13dp"
+                android:gravity="left"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:id="@+id/knowledge"
+                android:textColor="@color/blue_button_selected"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Make an investment today"
+                android:padding="13dp"
+                android:gravity="left"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:id="@+id/make_invest"
+                android:textColor="@color/blue_button_selected"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Send us an email"
+                android:padding="13dp"
+                android:textColor="@color/blue_button_selected"
+                android:gravity="left"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:id="@+id/send_mail"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+</RelativeLayout>
